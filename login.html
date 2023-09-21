@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="styles2.css" />
+    <title>Login Form Demo</title>
+    <style>
+        body {
+            background-image: url('https://blog.ipleaders.in/wp-content/uploads/2023/06/shutterstock_1364254547.jpg'); /* Replace 'your-image-url.jpg' with the URL or path to your image */
+            background-size: cover; /* This ensures the image covers the entire background */
+            background-repeat: no-repeat; /* Prevents the image from repeating */
+            /* You can also add other background properties like background-position, background-color, etc. */
+        }
+    </style>
+  </head>
+  <body>
+    <div class="login-wrapper">
+      <form action="" class="form">
+        <h2 style="color: orange">Login</h2>
+        <div class="input-group">
+          <input type="text" name="loginUser" id="loginUser" required />
+          <label for="loginUser" style="color: orange;">User Name</label>
+        </div>
+        <div class="input-group">
+          <input
+            type="password"
+            name="loginPassword"
+            id="loginPassword"
+            required
+          />
+          <label for="loginPassword" style="color: orange;">Password</label>
+        </div>
+        <div class="input-group">
+            <a>Forget password?</a>
+          </div>
+        <input type="submit" value="Login" class="submit-btn" />
+      </form>
+    </div>
+  </body>
+</html>
